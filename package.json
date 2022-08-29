@@ -1,0 +1,18 @@
+{
+  "name": "sudu-cli",
+  "version": "1.0.0",
+  "description": "sudu-cli",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/shdulu/sudu-cli.git"
+  },
+  "keywords": [],
+  "author": "shdulu",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^3.22.1"
+  }
+}

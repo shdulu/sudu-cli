@@ -1,0 +1,35 @@
+{
+  "name": "@sudu-cli/init",
+  "version": "1.1.1",
+  "description": "sudu-cli init",
+  "author": "shdulu <17625329975>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/shdulu/sudu-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@sudu-cli/utils": "file:../utils",
+    "colors": "^1.4.0",
+    "fs-extra": "^9.0.1",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  }
+}
